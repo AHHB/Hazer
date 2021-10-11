@@ -1,4 +1,5 @@
 # hazer
+Student attendance web application. [Demo](http://hazer.b6b.ir)
 
 ## Project setup
 ```
