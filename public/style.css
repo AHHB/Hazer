@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "yekan";
+  src: url("../font/yekan/Yekan.eot");
+  src: url("../font/yekan/Yekan.woff") format("woff"), url("../font/yekan/Yekan.ttf") format("truetype"), url("../font/yekan/Yekan.svg") format("svg");
+}
+@font-face {
+  font-family: "sans";
+  src: url("../font/Iranian-Sans/iranian-sans.eot");
+  src: url("../font/Iranian-Sans/iranian-sans.woff") format("woff"), url("../font/yekan/Yekan.ttf") format("truetype"), url("../font/yekan/Yekan.svg") format("svg");
+}
+.font-yekan {
+  font-family: yekan;
+}
+
+.font-sans {
+  font-family: sans;
+}
+
+.font-size-smal {
+  font-size: 12px;
+}
+
+* {
+  font-family: sans;
+  margin: 0;
+  padding: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.btn-add-class {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 1000;
+}
+
+.overflow-x {
+  overflow-x: scroll !important;
+}
+
+.tbl {
+  border-collapse: inherit;
+  width: 100%;
+}
+
+.tbl td, .tbl th {
+  text-align: center;
+}
+
+.tbl tr:nth-child(even) {
+  background-color: #a1a1a12f;
+}
+
+.tbl tr:hover {
+  background-color: rgba(221, 221, 221, 0.116);
+}
+
+.tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #0f33e5c0;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

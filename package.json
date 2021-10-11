@@ -1,0 +1,31 @@
+{
+  "name": "hazer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@linways/table-to-excel": "^1.0.4",
+    "file-saver": "^2.0.5",
+    "idb": "^6.1.4",
+    "register-service-worker": "^1.7.1",
+    "vue": "^2.6.11",
+    "vue-html-to-paper": "^1.4.3",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.4.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^6.2.95",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "file-loader": "^6.2.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  }
+}

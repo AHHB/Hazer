@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "yekan";
+  src: url("../font/yekan/Yekan.eot");
+  src: url("../font/yekan/Yekan.woff") format("woff"),
+       url("../font/yekan/Yekan.ttf") format("truetype"),
+       url("../font/yekan/Yekan.svg") format("svg");
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("../font/Iranian-Sans/iranian-sans.eot");
+  src: url("../font/Iranian-Sans/iranian-sans.woff") format("woff"),
+       url("../font/yekan/Yekan.ttf") format("truetype"),
+       url("../font/yekan/Yekan.svg") format("svg");
+}
+
+.font-yekan{
+    font-family: yekan;
+}
+
+.font-sans{
+  font-family: sans;
+}
+
+.font-size-smal{
+  font-size: 12px;
+}
